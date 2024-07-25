@@ -1,0 +1,32 @@
+.contact-section {
+    padding: 50px 0;
+    text-align: center;
+  }
+  .contact-box {
+    background-color: #ff6699; /* Pink background */
+    color: white; /* White text */
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+  }
+  .contact-box:hover {
+    background-color: #ff3377; /* Darker pink on hover */
+  }
+  .contact-link {
+    color: white; /* White color for links */
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+  .contact-link i {
+    margin-right: 10px;
+  }
+  .contact-link:hover {
+    text-decoration: none;
+  }
+  
+  

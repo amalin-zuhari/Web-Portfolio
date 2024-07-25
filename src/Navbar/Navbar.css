@@ -1,0 +1,48 @@
+.navbar {
+    background-color: black !important;
+  }
+  
+  
+  .navbar-brand{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+  }
+  
+  .navbar-icon{
+    height: 50px;
+  }
+  
+  .navbar-link{
+    color: white;
+  }
+  
+  .navbar-nav .nav-link {
+    color: white !important; /* Make the font color white */
+    padding: 10px 15px;
+  }
+  
+  .navbar-nav .nav-item.active .nav-link,
+  .navbar-nav .nav-item:hover .nav-link,
+  .navbar-nav .nav-link:focus {
+    background-color: pink; /* Background color when clicked or hovered */
+    color: black !important;
+    border-radius: 5px; /* Add some rounding to the box */
+  }
+  
+  .navbar-nav .nav-item {
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  /* Keep the button pink when it's the active link */
+  .navbar-nav .nav-item.active .nav-link {
+    background-color: pink;
+    color: black !important;
+  }
+  
+  .navbar-nav .nav-link:focus {
+    background-color: pink;
+    color: black !important;
+    border-radius: 5px;
+  }
+  

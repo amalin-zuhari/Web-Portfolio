@@ -1,0 +1,13 @@
+// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+// import Navbar from './Navbar/Navbar'
+// import Footer from './Footer/Footer'
+// import About from './About/About'
+
+
+<Router>
+        <Navbar />
+        <Routes>
+          <Route path='/' element={<About />} />
+        </Routes>
+        <Footer />
+      </Router>
